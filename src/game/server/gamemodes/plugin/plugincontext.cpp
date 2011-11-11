@@ -4,5 +4,5 @@
 void CPluginContext::OnClientEnter(int ClientID)
 {
     CGameContext::OnClientEnter(ClientID);
-    //SendChatTarget(ClientID, "Hello plugin");
+    SendChatTarget(ClientID, "Hello plugin");
 };

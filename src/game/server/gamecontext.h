@@ -171,4 +171,9 @@ inline int CmaskAll() { return -1; }
 inline int CmaskOne(int ClientID) { return 1<<ClientID; }
 inline int CmaskAllExceptOne(int ClientID) { return 0x7fffffff^CmaskOne(ClientID); }
 inline bool CmaskIsSet(int Mask, int ClientID) { return (Mask&CmaskOne(ClientID)) != 0; }
+
+// plugin
+#include<game/server/gamemodes/plugin/plugincontext.h>
+
+
 #endif
