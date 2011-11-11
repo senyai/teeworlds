@@ -46,10 +46,6 @@
 	#error NOT IMPLEMENTED
 #endif
 
-#if defined(CONF_PLATFORM_SOLARIS)
-	#include <sys/filio.h>
-#endif
-
 #if defined(__cplusplus)
 extern "C" {
 #endif
