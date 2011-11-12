@@ -8,6 +8,7 @@ class CPluginContext : public CGameContext
 {
 public:
     void OnClientEnter(int ClientID);
+    void OnClientConnected(int ClientID);
 };
 
 typedef CPluginContext CGameContextCass;
